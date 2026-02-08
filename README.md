@@ -19,7 +19,7 @@
 ## 🛠 Tech Stack
 * [cite_start]**Languages:** Python (managed via `uv`), Go [cite: 13]
 * [cite_start]**Infrastructure:** Terraform, Kubernetes (K8s) [cite: 13, 14]
-* [cite_start]**Observability:** OpenTelemetry (OTel), Prometheus, Grafana, Datadog [cite: 14]
+* [cite_start]**Observability:** OpenTelemetry (OTel), Prometheus, Grafana, Datadog, Dynatrace, Splunk [cite: 14]
 
 ## 🏗 Architecture-as-Code
 [cite_start]The following diagram visualizes the telemetry pipeline, ensuring "Engineering-first" reliability[cite: 9]:
