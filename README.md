@@ -44,3 +44,13 @@ Beyond the code, I focus on the operational health and financial sustainability 
 * **MTTR Reduction (The 25% Rule):** I don't just build dashboards; I build service-centric visibility. [cite_start]By establishing organization-wide SLIs/SLOs and automated onboarding, I've consistently reduced Mean Time to Resolution by ~25%[cite: 8, 20, 23].
 * [cite_start]**Governance & Compliance:** As an Accenture Governance & Compliance Champion (2024/2025), I design observability pipelines that meet regulatory standards while maintaining engineering velocity.
 * [cite_start]**Engineering-First Leadership:** I bridge the gap between executive vision and SRE-aligned reliability management[cite: 9, 24].
+
+## 🚀 Case Study: Solving Log Fatigue
+**Project:** [Observability Engine](./observability-project)
+**Architecture:** [Template Mining Design](./O11y-Architecture/Scenario-1-Log-Noise.md)
+
+### 3. RCA (Root Cause Analysis)
+Manual log review showed that 85% of ingestion costs were driven by "Normal" state heartbeats. Actual "Data Loss" logs were buried.
+
+### 5. Resolution Implemented
+Developed a Python-based pattern detector using `uv` that reduced log volume by **92%** through pattern deduplication, highlighting a critical `Block Corruption` error in < 1 second.
