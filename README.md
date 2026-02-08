@@ -2,7 +2,7 @@
 [cite_start]Thanks for visiting my profile. I am Shweta Tendulkar, fondly called Sia! 😄
 
 ## 🕵️‍♂️ Why am I here?
-I’m a Staff Observability Architect who believes that if an alert doesn't wake me up for a good reason, it shouldn't exist. 
+[cite_start]I’m a Staff Observability Architect who believes that if an alert doesn't wake me up for a good reason, it shouldn't exist. 
 [cite_start]I specialize in turning "Vendor Lock-in" nightmares into OpenTelemetry dreams.
 
 **My Philosophy:**
