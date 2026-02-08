@@ -32,6 +32,10 @@ graph TD
     C -->|Cost Savings| E[Cold Storage]
     D --> F[High-Signal Alerting]
 ```
+## 🛠 The "I’ve Seen Things" Tech Stack
+* [cite_start]**Kubernetes:** CKA/CKS certified, yet still occasionally humbled by a YAML indentation error[cite: 11].
+* **OpenTelemetry:** My love language. [cite_start]If it isn't instrumented, did the code even run? [cite: 7, 13]
+* [cite_start]**Datadog/Splunk/Grafana:** I speak all these fluently, though my wallet prefers OTel[cite: 14, 28].
 
 ## 🚀 The "Staff" Edge: Strategy & Governance
 Beyond the code, I focus on the operational health and financial sustainability of distributed systems. My approach is rooted in:
