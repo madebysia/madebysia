@@ -1,56 +1,59 @@
-# Heya! 👋🏼
-[cite_start]Thanks for visiting my profile. I am Shweta Tendulkar, fondly called Sia! 😄
+## Shweta Tendulkar | Staff Observability Architect 👋🏼
 
-## 🕵️‍♂️ Why am I here?
-[cite_start]I’m a Staff Observability Architect who believes that if an alert doesn't wake me up for a good reason, it shouldn't exist. 
-[cite_start]I specialize in turning "Vendor Lock-in" nightmares into OpenTelemetry dreams.
+Architecting the intersection of high-scale telemetry and fiscal responsibility.
 
-**My Philosophy:**
-* [cite_start]**Signal > Noise:** I reduced MTTR by 25% at Deloitte not by adding more dashboards, but by deleting the useless ones[cite: 23].
-* [cite_start]**ROM (Return-on-Monitoring):** If your observability bill looks like a phone number, we need to talk.
-* **Chatpata SRE:** I like my telemetry like I like my Biryani—well-distributed, spicy enough to keep you alert, but not so hot it causes a 3 AM incident. 👩🏻‍💻
+I treat observability as a **product**, not just a *cost center*. With 7+ years of experience across the Big 4, I specialize in transforming fragmented monitoring setups into OpenTelemetry-native architectures that drive measurable business value.
 
-# OpenTelemetry (OTel) Governance & ROM Framework
+## 🎯 The "Staff" Focus
 
-## 🎯 Project Overview
-[cite_start] This repository showcases a production-grade observability architecture designed to eliminate vendor lock-in and optimize **Return-on-Monitoring (ROM)**[cite: 7]. 
-[cite_start] It focuses on high-signal telemetry to reduce alert fatigue—a strategy that has previously helped improve MTTR by 25% in enterprise environments[cite: 8, 23].
+* AI Observability (LLMOps): Building the "paved road" for LLM reliability, focusing on model drift, token-cost attribution, and hallucination monitoring.
+* Return-on-Monitoring (RoM): Implementing data-gravity strategies to reduce enterprise spend (managed $5M+ reductions) without sacrificing visibility.
+* Observability-as-Governance: Standardizing telemetry across multi-cloud (AWS/Azure) environments to scale coverage from "fragmented" to "95%+ global visibility."
 
-## 🛠 Tech Stack
-* [cite_start]**Languages:** Python (managed via `uv`), Go [cite: 13]
-* [cite_start]**Infrastructure:** Terraform, Kubernetes (K8s) [cite: 13, 14]
-* [cite_start]**Observability:** OpenTelemetry (OTel), Prometheus, Grafana, Datadog, Dynatrace, Splunk [cite: 14]
+------------------------------
+## 🏗️ Featured Architectural Projects## OpenTelemetry-for-AI-Workloads
+A reference architecture for monitoring LLM-based applications.
 
-## 🏗 Architecture-as-Code
-[cite_start]The following diagram visualizes the telemetry pipeline, ensuring "Engineering-first" reliability[cite: 9]:
+* The Problem: High-latency and non-deterministic failures in AI pipelines.
+* The Solution: Custom OTel instrumentation for LangChain/OpenAI, tracking token usage and semantic similarity metrics.
+* Keywords: Python, OTel, Prometheus, LLM Monitoring.
 
-```mermaid
-graph TD
-    A[Microservices: Go/Python] -->|Otlp| B(OTel Collector)
-    B --> C{Governance Logic}
-    C -->|Filtered Data| D[Datadog/Grafana]
-    C -->|Cost Savings| E[Cold Storage]
-    D --> F[High-Signal Alerting]
-```
-## 🛠 The "I’ve Seen Things" Tech Stack
-* [cite_start]**Kubernetes:** CKA/CKS certified, yet still occasionally humbled by a YAML indentation error[cite: 11].
-* **OpenTelemetry:** My love language. [cite_start]If it isn't instrumented, did the code even run? [cite: 7, 13]
-* [cite_start]**Datadog/Splunk/Grafana:** I speak all these fluently, though my wallet prefers OTel[cite: 14, 28].
+## The RoM-Framework / Cost-Analyzer
+A Go-based CLI tool designed to identify high-cardinality "money-burners" in Prometheus and Datadog.
 
-## 🚀 The "Staff" Edge: Strategy & Governance
-Beyond the code, I focus on the operational health and financial sustainability of distributed systems. My approach is rooted in:
+* Impact: Bridges the gap between FinOps and SRE, allowing teams to predict cloud observability costs before they spike.
+* Keywords: Go, FinOps, Metric Cardinality, Cost Modeling.
 
-* **Return-on-Monitoring (ROM):** I treat observability as an investment. [cite_start]At Deloitte, I used cost modeling to justify vendor selection and platform spend, ensuring high signal without the "surprise" cloud bill[cite: 21].
-* **MTTR Reduction (The 25% Rule):** I don't just build dashboards; I build service-centric visibility. [cite_start]By establishing organization-wide SLIs/SLOs and automated onboarding, I've consistently reduced Mean Time to Resolution by ~25%[cite: 8, 20, 23].
-* [cite_start]**Governance & Compliance:** As an Accenture Governance & Compliance Champion (2024/2025), I design observability pipelines that meet regulatory standards while maintaining engineering velocity.
-* [cite_start]**Engineering-First Leadership:** I bridge the gap between executive vision and SRE-aligned reliability management[cite: 9, 24].
+## Standardized-OTel-Collector-K8s
+Production-grade Terraform modules for deploying a resilient OTel Collector tier on AKS/EKS.
 
-## 🚀 Case Study: Solving Log Fatigue
-**Project:** [Observability Engine](./observability-project)
-**Architecture:** [Template Mining Design](./O11y-Architecture/Scenario-1-Log-Noise.md)
+* Feature: Includes automated tail-sampling and attribute-based routing to eliminate vendor lock-in.
+* Keywords: Terraform, Kubernetes, Helm, Multi-Cloud.
 
-### 3. RCA (Root Cause Analysis)
-Manual log review showed that 85% of ingestion costs were driven by "Normal" state heartbeats. Actual "Data Loss" logs were buried.
+------------------------------
+## 💻 Technical Ecosystem
 
-### 5. Resolution Implemented
-Developed a Python-based pattern detector using `uv` that reduced log volume by **92%** through pattern deduplication, highlighting a critical `Block Corruption` error in < 1 second.
+* Protocols: OpenTelemetry (OTel), eBPF, Distributed Tracing (W3C Trace Context).
+* Strategy: SLI/SLO Frameworks, Error Budgets, Incident Management, RFPs.
+* Platforms: Datadog, Prometheus, Grafana, Splunk, Azure Monitor, AI Studio.
+* IaC & Code: Python, Go, Terraform, GitHub Actions.
+
+------------------------------
+## 📈 Career Impact at a Glance
+
+* Reduced MTTR by 25% through standardized anomaly detection and alert correlation.
+* Improved System Efficiency by 25% via proactive performance engineering and capacity planning.
+* CKA / CKS / OTCA Certified.
+
+------------------------------
+## 📫 Connect with Me
+
+* Location: San Francisco Bay Area (E-3 Visa Eligible 🇦🇺)
+* LinkedIn: [Linkedin](https://www.linkedin.com/in/shweta-tendulkar/)
+* Email: [Gmail](shweta.s.tendulkar@gmail.com)
+* [BlueSky](https://bsky.app/profile/madebysia.bsky.social)
+* [Discord](https://discord.com/invite/madebysia)
+* [Facebook](https://www.facebook.com/shweta.s.tendulkar)
+* [Instagram](https://www.instagram.com/madebysia)
+* [Stack Overflow](https://stackoverflow.com/users/madebysia)
+* [Mastodon](https://mastodon.social/@@madebysia)
