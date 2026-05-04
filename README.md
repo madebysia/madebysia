@@ -95,8 +95,8 @@ I treat observability as a **product**, not just a *cost center*. With 7+ years 
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=plastic&logo=Trello&logoColor=white)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=madebysia&theme=ambient_gradient&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=madebysia&theme=ambient_gradient&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=madebysia&theme=ambient_gradient&hide_border=false&include_all_commits=true&count_private=true)
+![](https://nirzak-streak-stats.vercel.app/?user=madebysia&theme=ambient_gradient&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=madebysia&theme=ambient_gradient&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
@@ -132,7 +132,6 @@ Production-grade Terraform modules for deploying a resilient OTel Collector tier
 ------------------------------
 ## 💻 Technical Ecosystem
 
-<<<<<<< HEAD
 * Protocols: OpenTelemetry (OTel), eBPF, Distributed Tracing (W3C Trace Context).
 * Strategy: SLI/SLO Frameworks, Error Budgets, Incident Management, RFPs.
 * Platforms: Datadog, Prometheus, Grafana, Splunk, Azure Monitor, AI Studio.
