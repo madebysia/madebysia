@@ -11,7 +11,6 @@ I treat observability as a **product**, not just a *cost center*. With 7+ years 
 
 ## 🎯 The "Staff" Focus
 
-------------------------------
 ## 📫 Connect with Me
 
 * Location: San Francisco Bay Area (E-3 Visa Eligible 🇦🇺)
