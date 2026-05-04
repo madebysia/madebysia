@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 ## Shweta Tendulkar | Staff Observability Architect 👋🏼
-=======
+
 
 Thanks for visiting my profile. I am Shweta Tendulkar, fondly called Sia! 😄
 Architecting the intersection of high-scale telemetry and fiscal responsibility.
@@ -10,9 +9,7 @@ I’m a Staff Observability Architect who believes that if an alert doesn't wake
 I specialize in turning "Vendor Lock-in" nightmares into OpenTelemetry dreams.
 I treat observability as a **product**, not just a *cost center*. With 7+ years of experience across the Big 4, I specialize in transforming fragmented monitoring setups into OpenTelemetry-native architectures that drive measurable business value.
 
-<<<<<<< HEAD
 ## 🎯 The "Staff" Focus
-=======
 
 ------------------------------
 ## 📫 Connect with Me
@@ -105,12 +102,9 @@ I treat observability as a **product**, not just a *cost center*. With 7+ years 
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=madebysia&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
-
----
 [![](https://visitcount.itsvg.in/api?id=madebysia&icon=4&color=5)](https://visitcount.itsvg.in)
 
 # OpenTelemetry (OTel) Governance & ROM Framework
->>>>>>> 1b1635581c611d96cba112d2afe981171f79e326
 
 * AI Observability (LLMOps): Building the "paved road" for LLM reliability, focusing on model drift, token-cost attribution, and hallucination monitoring.
 * Return-on-Monitoring (RoM): Implementing data-gravity strategies to reduce enterprise spend (managed $5M+ reductions) without sacrificing visibility.
