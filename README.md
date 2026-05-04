@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 ## Shweta Tendulkar | Staff Observability Architect 👋🏼
+=======
 
 Thanks for visiting my profile. I am Shweta Tendulkar, fondly called Sia! 😄
 Architecting the intersection of high-scale telemetry and fiscal responsibility.
-=======
 
 ## 🕵️‍♂️ Why am I here?
 I’m a Staff Observability Architect who believes that if an alert doesn't wake me up for a good reason, it shouldn't exist. 
@@ -17,9 +17,7 @@ I treat observability as a **product**, not just a *cost center*. With 7+ years 
 ------------------------------
 ## 📫 Connect with Me
 
-
 * Location: San Francisco Bay Area (E-3 Visa Eligible 🇦🇺)
-* LinkedIn: [Linkedin](https://www.linkedin.com/in/shweta-tendulkar/)
 * Email: [Gmail](shweta.s.tendulkar@gmail.com)
 
 ## 🌐 Socials:
